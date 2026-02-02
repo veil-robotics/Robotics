@@ -26,6 +26,16 @@
 
 ---
 
+## Quickstart
+
+- See `/specs/001-anonymize-video/quickstart.md` for usage flows and validation.
+
+## Developer Notes
+
+- Core processing lives in `src/core/`.
+- CLI commands live in `src/cli/`.
+- Backend API lives in `src/api/`.
+
 ## Why this exists
 
 Modern video is a privacy minefield: faces, plates, screens, badges, documents, reflections—tiny identifiers hiding in plain sight.

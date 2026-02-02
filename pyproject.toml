@@ -1,0 +1,35 @@
+[project]
+name = "veil-robotics"
+version = "0.1.0"
+description = "Local-first video anonymization tooling"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "TBD" }
+
+dependencies = [
+  "fastapi>=0.110",
+  "typer>=0.12",
+  "pydantic>=2.6",
+  "uvicorn>=0.27",
+  "numpy>=1.26",
+  "opencv-python>=4.9",
+  "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+all = [
+  "pytest>=7.4",
+  "httpx>=0.26",
+]
+
+tool = []
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

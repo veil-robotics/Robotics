@@ -1,0 +1,10 @@
+fastapi>=0.110
+typer>=0.12
+pydantic>=2.6
+uvicorn>=0.27
+numpy>=1.26
+opencv-python>=4.9
+python-multipart>=0.0.9
+
+pytest>=7.4
+httpx>=0.26
