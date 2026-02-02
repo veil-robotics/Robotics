@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+.env*
+
+# Build artifacts
+dist/
+build/
+
+# Test artifacts
+.coverage
+coverage/
+.pytest_cache/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local/private docs
+AGENTS.md
+specs/
